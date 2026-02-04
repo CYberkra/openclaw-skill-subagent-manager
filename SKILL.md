@@ -230,6 +230,7 @@ You:
 4. **Set up progress reports** for tasks expected to take >3 minutes
 5. **Never leave the user waiting** without feedback
 6. **Clean up** cron jobs when tasks complete
+7. **Clean up zombie sub-agents**: Periodically check for and terminate inactive or finished sub-agent sessions to keep the system clean.
 
 ## Summary
 
