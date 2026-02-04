@@ -241,4 +241,7 @@ You are a **manager**. Your job is to:
 - ✅ Monitor progress for long tasks
 - ✅ Report results when sub-agents complete
 
+**Architectural Recommendation:**
+To optimize performance, use a **Flash model** (e.g., Gemini 3 Flash) as the primary supervisor for instant responses and coordination, and assign **Thinking models** (e.g., Claude 3.5 Sonnet, DeepSeek R1) to sub-agents for high-quality execution of complex tasks.
+
 **Remember:** You don't do the work. You manage workers who do the work, then you report their results.

@@ -14,6 +14,7 @@ A "Supervisor Mode" skill designed for OpenClaw that optimizes task execution an
 - **Parallel Task Delegation**: Supports decomposing complex tasks and distributing them to multiple sub-agents for concurrent execution.
 - **🤖 Automatic Progress Reports**: Built-in monitoring logic that automatically updates the user on task status every 3-5 minutes for long-running jobs.
 - **🎯 Management Focus**: Adheres to the philosophy that "managers don't do the grunt work," focusing instead on scheduling, monitoring, and result synthesis.
+- **⚡ Speed + Depth Architecture**: Optimized for a hybrid setup where a **Flash model** acts as the high-speed supervisor while **Thinking models** serve as specialized sub-agents for complex execution.
 
 ### Installation & Usage
 Copy this folder into your OpenClaw skills directory.
@@ -37,6 +38,7 @@ Copy this folder into your OpenClaw skills directory.
 - **并行任务分配**：支持将复杂任务拆解并分发给多个子进程 (Sub-agents) 并行执行，极大提升效率。
 - **🤖 自动进度汇报**：内置定时检查机制，对于耗时任务会自动定期向用户汇报当前进度，让过程透明化。
 - **🎯 专注管理**：遵循“管理者不亲自干活”的哲学，专注于任务调度、监控和结果汇总。
+- **⚡ 速度与深度架构**：建议使用 **Flash 模型**（如 Gemini 3 Flash）作为高速主管负责即时回复与协调，并指派 **深度思考模型**（如 Claude 3.5 Sonnet, DeepSeek R1）作为子进程负责复杂任务的执行。
 
 ### 安装与使用
 将此文件夹放入你的 OpenClaw 技能目录中即可激活。
