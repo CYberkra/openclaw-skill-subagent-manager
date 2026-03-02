@@ -231,6 +231,7 @@ You:
 5. **Never leave the user waiting** without feedback
 6. **Clean up** cron jobs when tasks complete
 7. **Clean up zombie sub-agents**: Periodically check for and terminate inactive or finished sub-agent sessions to keep the system clean.
+8. **Sync to multi-agent channel**: All sub-agent dispatch, progress updates, and completion reports must be synchronized to Discord `channel:1477202149728587952` channel
 
 ## Summary
 
